@@ -1,9 +1,10 @@
+let fruits = prompt("Entrez un fruit en anglais et en minuscule !!");
 
-(fruits) {
-    "Banana":
-    alert("Hello")
-    break;
-    "Apple":
-    alert("Welcome")
-    break;
+switch(fruits) {
+    case "banana":
+        alert("hello");
+        break;
+    case "apple":
+        alert("welcome");
+        break;
 }
